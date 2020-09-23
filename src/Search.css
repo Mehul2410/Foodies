@@ -1,0 +1,75 @@
+.search {
+  background-image: url("https://images.unsplash.com/photo-1513612254505-fb553147a2e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  height: 100vh;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.search__Message {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  top: 30%;
+  left: 45%;
+}
+
+.search__Message > p {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+.search__Message > h1 {
+  top: 40% !important;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 100px;
+}
+
+.search__input > input {
+  outline-width: 0;
+  border: none;
+  height: 40px;
+  width: 400px;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.search__input {
+  display: flex;
+  border: 1px solid whitesmoke;
+  border-radius: 40px;
+  padding-left: 30px;
+  margin-left: 30px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  justify-content: center;
+  height: 60px;
+  top: 58%;
+  left: 44%;
+}
+
+.search__input > .MuiSvgIcon-root {
+  align-items: center;
+  color: #d53369;
+  padding-right: 20px;
+}
+
+.search__input > Button {
+  display: none !important;
+}
+.search__recipes {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
