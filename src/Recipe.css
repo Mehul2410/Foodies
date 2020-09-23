@@ -2,22 +2,21 @@
   margin: 3rem;
   display: flex;
   flex-direction: column;
-  background-color: #d3d3d3;
-  padding: 2rem;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  padding: 10px;
   position: relative;
   border-radius: 0.5rem;
-  box-shadow: 2rem 3rem 5rem #aaa;
 }
 
 .recipe h2 {
-  background-color: rgba(161, 161, 161, 0.7);
+  background-color: rgba(212, 102, 102, 0.7);
   border-radius: 0.5rem;
   padding: 0.3rem 0.5rem;
   position: absolute;
-  top: 2.5rem;
+  top: 1.5rem;
   left: 2.5rem;
   right: 2.5rem;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 400;
   text-shadow: 0 0.5rem 0.5rem #555;
   color: #fff;
@@ -36,10 +35,10 @@
 }
 
 .recipe button {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   color: #fff;
-  background-color: #40b48e;
+  background-color: #f11712;
   border: none;
   border-radius: 0.5rem;
   height: 3rem;
