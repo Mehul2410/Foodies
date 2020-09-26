@@ -1,5 +1,5 @@
 .search {
-  background-image: url("https://images.unsplash.com/photo-1513612254505-fb553147a2e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-image: url("https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_960_720.jpg");
   height: 100vh;
   width: auto;
   background-repeat: no-repeat;
@@ -10,10 +10,11 @@
 .search__Message {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: relative;
   justify-content: center;
-  top: 30%;
-  left: 45%;
+  top: 23%;
+  left: 60%;
+  max-width: max-content;
 }
 
 .search__Message > p {
@@ -25,7 +26,6 @@
 }
 
 .search__Message > h1 {
-  top: 40% !important;
   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -39,6 +39,7 @@
   width: 400px;
   background-color: transparent;
   font-size: 20px;
+  color: white;
 }
 
 .search__input {
@@ -46,14 +47,14 @@
   border: 1px solid whitesmoke;
   border-radius: 40px;
   padding-left: 30px;
-  margin-left: 30px;
+
   align-items: center;
-  justify-content: center;
-  position: absolute;
-  justify-content: center;
+  max-width: max-content;
+  position: relative;
+
   height: 60px;
-  top: 58%;
-  left: 44%;
+  top: 25%;
+  left: 60%;
 }
 
 .search__input > .MuiSvgIcon-root {
@@ -66,10 +67,23 @@
   display: none !important;
 }
 .search__recipes {
-  width: 90%;
+  width: 100%;
   display: flex;
+  position: static;
+  top: 20%;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
+  background: #0099f7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #f11712,
+    #0099f7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #f11712,
+    #0099f7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
