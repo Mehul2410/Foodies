@@ -1,0 +1,131 @@
+/* .expertadvice {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.expertadvice > img {
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+} */
+
+.expert__main {
+  overflow-x: hidden;
+}
+
+.expert__top {
+  background-image: url("https://cdn.pixabay.com/photo/2014/11/11/18/20/pasta-527286_960_720.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.expert__top > h2 {
+  position: absolute;
+  top: 20%;
+  left: 26%;
+  background: linear-gradient(90deg, gray 30%, blue 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5.5vw;
+  font-weight: 800;
+  width: max-content;
+}
+
+.expert__top > a {
+  position: relative;
+  text-decoration: unset;
+  top: 85%;
+  left: 45%;
+  width: max-content;
+}
+
+.scroll__icon > .MuiSvgIcon-root {
+  font-size: 7rem;
+}
+.scroll__icon > .MuiSvgIcon-root:hover {
+  box-shadow: inset 2px 4px 6px grey;
+  font-size: 7.1rem;
+  border-radius: 50%;
+  color: red;
+}
+
+.expert {
+  background-image: url("https://cdn.pixabay.com/photo/2017/06/17/16/20/waffles-2412628_960_720.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.expert__Message {
+  position: relative;
+  top: 39vh;
+  left: 40vw;
+}
+
+.expert__Message > h1 {
+  background: linear-gradient(90deg, gray 30%, blue 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4.5vw;
+  font-weight: 800;
+  width: max-content;
+}
+
+.expert__input > input {
+  outline-width: 0;
+  border: none;
+  height: 50px;
+  width: 25vw;
+  background-color: transparent;
+  font-size: 20px;
+  color: white;
+}
+.expert__input:hover {
+  background-color: rgba(130, 189, 238, 0.541);
+}
+.expert__input {
+  margin-left: 10px;
+  margin-top: 15px;
+  display: flex;
+  border: 1px solid whitesmoke;
+  border-radius: 40px;
+  padding-left: 30px;
+  align-items: center;
+  max-width: max-content;
+  position: relative;
+}
+
+.expert__input > .MuiSvgIcon-root {
+  align-items: center;
+  color: #d53369;
+  padding-right: 20px;
+}
+
+.expert__input > Button {
+  display: none !important;
+}
+
+.scroll__icon2 {
+  position: sticky;
+  text-decoration: unset;
+  top: 95%;
+  left: 45%;
+
+  width: max-content;
+}
+.scroll__icon2 > .MuiSvgIcon-root {
+  font-size: 7rem;
+}
+
+.scroll__icon2 > .MuiSvgIcon-root:hover {
+  box-shadow: inset 2px 4px 6px grey;
+  font-size: 7.1rem;
+  border-radius: 50%;
+  color: red;
+}
