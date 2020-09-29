@@ -2,10 +2,10 @@
   margin: 3rem;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-image: linear-gradient(to bottom, #3386d2 30%, #ace0f9 70%);
   padding: 10px;
   position: relative;
-  border-radius: 0.5rem;
+  border-radius: 1.5rem;
 }
 
 .recipe h2 {
@@ -22,10 +22,26 @@
   text-shadow: 0 0.5rem 0.5rem #555;
   color: #fff;
 }
+.recipe h3 {
+  background-color: rgba(212, 102, 102, 0.7);
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  position: absolute;
+  /* position: sticky; */
+  top: 6.5rem;
+  left: 0.5rem;
+  right: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-shadow: 0 0.5rem 0.5rem #555;
+  color: #fff;
+  text-align: center;
+}
 
 .recipe img {
-  border-radius: 0.5rem;
+  border-radius: 1.5rem;
   object-fit: cover;
+  width: 100%;
 }
 
 .recipe img:hover .recipe a {
@@ -42,4 +58,5 @@
   border: none;
   border-radius: 0.5rem;
   height: 3rem;
+  font-weight: 700;
 }
