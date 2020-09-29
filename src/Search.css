@@ -7,12 +7,52 @@
   background-attachment: fixed;
 }
 
+.search__Foodies {
+  background-image: url("https://cdn.pixabay.com/photo/2020/05/17/04/22/pizza-5179939_960_720.jpg");
+  height: 100vh;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.search__Foodies > h1 {
+  position: absolute;
+  top: 27%;
+  left: 43%;
+  background: linear-gradient(90deg, #8b0801 30%, gray 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 6vw;
+  font-weight: 800;
+  width: max-content;
+}
+
+.scroll__icon3 {
+  position: sticky;
+  text-decoration: unset;
+  top: 95%;
+  left: 45%;
+
+  width: max-content;
+}
+.scroll__icon3 > .MuiSvgIcon-root {
+  font-size: 7rem;
+}
+
+.scroll__icon3 > .MuiSvgIcon-root:hover {
+  box-shadow: inset 2px 4px 6px grey;
+  font-size: 7.1rem;
+  border-radius: 50%;
+  color: red;
+}
+
 .search__Message {
   display: flex;
   flex-direction: column;
   position: relative;
   justify-content: center;
-  top: 23%;
+  top: 30%;
   left: 60%;
   max-width: max-content;
 }
@@ -21,7 +61,7 @@
   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 50px;
+  font-size: 4vw;
   margin-left: 10px;
 }
 
@@ -29,14 +69,14 @@
   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 100px;
+  font-size: 5vw;
 }
 
 .search__input > input {
   outline-width: 0;
   border: none;
-  height: 40px;
-  width: 400px;
+  height: 50px;
+  width: 20vw;
   background-color: transparent;
   font-size: 20px;
   color: white;
@@ -47,14 +87,11 @@
   border: 1px solid whitesmoke;
   border-radius: 40px;
   padding-left: 30px;
-
   align-items: center;
   max-width: max-content;
   position: relative;
-
-  height: 60px;
-  top: 25%;
-  left: 60%;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .search__input > .MuiSvgIcon-root {
@@ -76,4 +113,22 @@
   justify-content: center;
   align-items: flex-start;
   background-color: #07060b;
+}
+
+.search__Foodies a {
+  position: relative;
+  text-decoration: unset;
+  top: 80%;
+  left: 45%;
+  width: max-content;
+}
+
+.scroll__icon4 > .MuiSvgIcon-root {
+  font-size: 7rem;
+}
+.scroll__icon4 > .MuiSvgIcon-root:hover {
+  box-shadow: inset 2px 4px 6px grey;
+  font-size: 7.1rem;
+  border-radius: 50%;
+  color: red;
 }
