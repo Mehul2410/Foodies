@@ -5,6 +5,7 @@ import Axios from "axios";
 import Recipe from "./Recipe";
 import { v4 as uuidv4 } from "uuid";
 import "./Search.css";
+import ArrowDropDownRoundedIcon from "@material-ui/icons/ArrowDropDownRounded";
 
 const Search = () => {
   const [recipes, setRecipes] = useState([]);
@@ -31,24 +32,34 @@ const Search = () => {
   };
   return (
     <div className="search__main">
-      <div className="search">
+      <div className="search__Foodies">
+        <h1>Foodies</h1>
+        <a href="#search" className="scroll__icon4">
+          <ArrowDropDownRoundedIcon />
+        </a>
+      </div>
+      <div className="search" id="search">
         <div className="search__Message">
           <h1 onClick={getData}>Hello There!</h1>
           <p> How can i help you?</p>
+
+          <form className="search__input" onSubmit={onSubmit}>
+            <input
+              type="text"
+              placeholder="Find recipes"
+              autoComplete="off"
+              onChange={onChange}
+              value={query}
+            />
+            <SearchRounded />
+            <Button type="submit" />
+          </form>
         </div>
-        <form className="search__input" onSubmit={onSubmit}>
-          <input
-            type="text"
-            placeholder="Find recipes"
-            autoComplete="off"
-            onChange={onChange}
-            value={query}
-          />
-          <SearchRounded />
-          <Button type="submit" />
-        </form>
+        <a href="#result" className="scroll__icon3">
+          <ArrowDropDownRoundedIcon />
+        </a>
       </div>
-      <div className="search__recipes">
+      <div className="search__recipes" id="result">
         {recipes !== [] &&
           recipes.map((recipe) => <Recipe key={uuidv4} recipe={recipe} />)}
       </div>
