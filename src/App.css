@@ -1,6 +1,8 @@
 * {
   margin: 0;
+  scroll-behavior: smooth;
 }
+
 /* .app {
   align-items: center;
   position: absolute;
