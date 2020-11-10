@@ -23,9 +23,6 @@ const Header = () => {
         <Link to="/">
           <Instagram className="fa fa-instagram" />
         </Link>
-
-        <Button>Sign in</Button>
-        <Button>Log in</Button>
       </div>
     </div>
   );
