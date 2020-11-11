@@ -1,9 +1,14 @@
 .ingredient-list {
-  margin-top: 1rem;
+  margin-top: 10px;
   background-color: #f0f0f0;
-  border-radius: 0.5rem;
+  border-radius: 5px;
   padding-left: 2.5rem;
-  width:400px;
+}
+
+.ingredient__body {
+  width: 84%;
+  height: 40%;
+  overflow-y: scroll;
 }
 
 .ingredient-list li {
@@ -11,11 +16,11 @@
 }
 
 .ingredient-text {
-  font-size: 1.5rem;
+  font-size: larger;
   color: #888;
 }
 
 .ingredient-weight {
   color: #40b48e;
-  font-size: 1.3rem;
+  font-size: large;
 }

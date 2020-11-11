@@ -103,16 +103,19 @@
 .search__input > Button {
   display: none !important;
 }
-.search__recipes {
-  width: 100%;
-  display: flex;
-  position: static;
-  top: 20%;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
+
+.search__recipeBody {
+  width: 80%;
+  margin: auto;
   background-color: #07060b;
+}
+
+.search__recipes {
+  position: relative;
+  columns: 4;
+  column-gap: 0px;
+  break-inside: avoid !important;
+  overflow: hidden;
 }
 
 .search__Foodies a {

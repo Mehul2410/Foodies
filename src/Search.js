@@ -59,9 +59,11 @@ const Search = () => {
           <ArrowDropDownRoundedIcon />
         </a>
       </div>
-      <div className="search__recipes" id="result">
-        {recipes !== [] &&
-          recipes.map((recipe) => <Recipe key={uuidv4} recipe={recipe} />)}
+      <div className="search__recipeBody">
+        <div className="search__recipes" id="result">
+          {recipes !== [] &&
+            recipes.map((recipe) => <Recipe key={uuidv4} recipe={recipe} />)}
+        </div>
       </div>
     </div>
   );

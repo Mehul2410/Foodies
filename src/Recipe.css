@@ -1,5 +1,5 @@
 .recipe {
-  margin: 3rem;
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(to bottom, #3386d2 30%, #ace0f9 70%);
@@ -13,12 +13,11 @@
   border-radius: 0.5rem;
   padding: 0.3rem 0.5rem;
   position: absolute;
-  /* position: sticky; */
-  top: 1.5rem;
-  left: 2.5rem;
-  right: 2.5rem;
-  font-size: 1.5rem;
-  font-weight: 400;
+  top: 7%;
+  left: 4%;
+  width: 86%;
+  font-size: large;
+  font-weight: 500;
   text-shadow: 0 0.5rem 0.5rem #555;
   color: #fff;
 }
@@ -42,21 +41,21 @@
   border-radius: 1.5rem;
   object-fit: cover;
   width: 100%;
+  cursor: pointer;
 }
 
-.recipe img:hover .recipe a {
-  font-size: 1.8rem;
-  color: #40b48e;
-  text-decoration: unset;
-  text-align: center;
+.recipe a {
+  height: max-content;
 }
 
 .recipe button {
-  font-size: 2rem;
+  font-size: larger;
   color: #fff;
   background-color: #f11712;
   border: none;
   border-radius: 0.5rem;
   height: 3rem;
-  font-weight: 700;
+  font-weight: 600;
+  margin: auto;
+  width: 95%;
 }
