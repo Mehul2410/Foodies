@@ -6,6 +6,7 @@
   padding: 10px;
   position: relative;
   border-radius: 1.5rem;
+  break-inside: avoid !important;
 }
 
 .recipe h2 {
@@ -58,4 +59,11 @@
   font-weight: 600;
   margin: auto;
   width: 95%;
+}
+
+.ingredient__body {
+  width: 80%;
+  height: 50%;
+  overflow-y: scroll;
+  break-inside: avoid !important;
 }

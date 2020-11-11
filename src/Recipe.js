@@ -13,7 +13,9 @@ const Recipe = ({ recipe }) => {
         <img src={image} alt={label} />
       </a>
       <button onClick={() => setShow(!show)}>Ingredients</button>
-      {show && <RecipeDetails ingredients={ingredients} />}
+      {show && (
+        <RecipeDetails className="ingredient__body" ingredients={ingredients} />
+      )}
     </div>
   );
 };
