@@ -1,12 +1,14 @@
 .recipe {
-  margin: 1rem;
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(to bottom, #3386d2 30%, #ace0f9 70%);
-  padding: 10px;
+  padding: 6px;
   position: relative;
   border-radius: 1.5rem;
   break-inside: avoid !important;
+  margin: 7px;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
 }
 
 .recipe h2 {
