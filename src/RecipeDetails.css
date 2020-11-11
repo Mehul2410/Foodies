@@ -7,11 +7,12 @@
 
 .ingredient-list li {
   margin: 0.5rem 0;
-  overflow: hidden;
 }
 
 .ingredient-text {
   font-size: larger;
+
+  overflow-x: auto;
   color: #888;
 }
 

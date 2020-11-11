@@ -107,7 +107,7 @@
 .search__recipeBody {
   width: 80%;
   height: 100%;
-  margin: 40px auto;
+  margin: auto;
   background-color: #07060b;
   justify-content: center;
 }
@@ -115,8 +115,9 @@
 .search__recipes {
   position: relative;
   columns: 4;
-
-  column-gap: 0px;
+  margin: 40px auto;
+  column-gap: 20px;
+  row-gap: 20px;
   break-inside: avoid !important;
   overflow: hidden;
 }

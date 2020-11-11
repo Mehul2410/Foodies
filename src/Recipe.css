@@ -6,9 +6,9 @@
   position: relative;
   border-radius: 1.5rem;
   break-inside: avoid !important;
-  margin: 7px;
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
+  margin-bottom: 10px;
 }
 
 .recipe h2 {
