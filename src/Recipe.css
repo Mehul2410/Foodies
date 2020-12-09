@@ -16,7 +16,7 @@
   border-radius: 0.5rem;
   padding: 0.3rem 0.5rem;
   position: absolute;
-  top: 7%;
+  top: 2rem;
   left: 4%;
   width: 86%;
   font-size: large;
@@ -30,14 +30,17 @@
   padding: 0.3rem 0.5rem;
   position: absolute;
   /* position: sticky; */
-  top: 6.5rem;
-  left: 0.5rem;
+  top: 14.5rem;
+  left: 1.5rem;
   right: 0.5rem;
   font-size: 1.5rem;
   font-weight: 400;
   text-shadow: 0 0.5rem 0.5rem #555;
   color: #fff;
   text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 80%;
 }
 
 .recipe img {

@@ -9,7 +9,7 @@ const NutrientDetails = ({ digest }) => {
         <li className="ingredient-text">{digests.label}</li>
         <li className="ingredient-text">{digests.schemaOrgTag}</li>
         <li className="ingredient-text">{digests.tag}</li>
-        <li className="ingredient-text">{digests.unit}</li>
+        <li className="ingredient-text">{digests.total} g</li>
       </ul>
     );
   });
