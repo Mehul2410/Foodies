@@ -114,6 +114,8 @@
 
 .search__recipes {
   position: relative;
+  display: grid;
+  grid-template-columns: 285px 285px 285px 285px;
   columns: 4;
   margin: 40px auto;
   column-gap: 20px;
