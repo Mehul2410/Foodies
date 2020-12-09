@@ -1,10 +1,12 @@
 .recipe {
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(to bottom, #3386d2 30%, #ace0f9 70%);
-  padding: 6px;
+
+  padding: 6px 6px 10px 6px;
   position: relative;
-  border-radius: 1.5rem;
+  background-color: white;
+
+  border-radius: 1.5rem 1.5rem 5px 5px;
   break-inside: avoid !important;
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
@@ -15,6 +17,8 @@
 .nut__box {
   height: 250px;
   overflow-y: scroll;
+  overflow-x: hidden;
+  border-radius: 10px;
 }
 
 .recipe h2 {
@@ -51,9 +55,8 @@
 
 @media screen and (max-width: 1390px) {
   div.recipe h3 {
-    font-size: 1.1rem;
-    font-weight: 300;
-    top: 12.5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
   }
 }
 

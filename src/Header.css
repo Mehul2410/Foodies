@@ -24,6 +24,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media screen and (max-width: 374px) {
+  div.header__right {
+    display: none;
+  }
+}
+
 .header__right {
   display: flex;
   align-items: center;
@@ -39,7 +46,7 @@
 
 .fa {
   padding: 10px;
-  font-size: 20px;
+  font-size: 10px;
   width: 20px;
   text-align: center;
   text-decoration: none;

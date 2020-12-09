@@ -14,7 +14,11 @@ const ExpertM = ({ recipe }) => {
       </a>
       <h3>Calories:{calories}</h3>
       <button onClick={() => setShow(!show)}>Details</button>
-      {show && <NutrientDetail digest={digest} />}
+      {show && (
+        <div className="nut__box">
+          <NutrientDetail digest={digest} />
+        </div>
+      )}
     </div>
   );
 };

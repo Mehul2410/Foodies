@@ -7,6 +7,12 @@
   background-attachment: fixed;
 }
 
+@media screen and (max-width: 642px) {
+  div.search {
+    background-image: url("https://images.pexels.com/photos/3338681/pexels-photo-3338681.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  }
+}
+
 .search__Foodies {
   background-image: url("https://cdn.pixabay.com/photo/2020/05/17/04/22/pizza-5179939_960_720.jpg");
   height: 100vh;
@@ -16,6 +22,12 @@
   background-attachment: fixed;
 }
 
+@media screen and (max-width: 642px) {
+  div.search__Foodies {
+    background-image: url("https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg");
+  }
+}
+
 .search__Foodies > h1 {
   position: absolute;
   top: 27%;
@@ -23,7 +35,7 @@
   background: linear-gradient(90deg, #8b0801 30%, gray 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 6vw;
+  font-size: 83px;
   font-weight: 800;
   width: max-content;
 }
@@ -61,22 +73,231 @@
   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 4vw;
+  font-size: 60px;
   margin-left: 10px;
+}
+
+@media screen and (max-width: 1076px) {
+  div.search__Message > p {
+    font-size: 47px;
+  }
+  div.search__Message {
+    top: 30%;
+    left: 50%;
+  }
+  div.search__Message > h1 {
+    font-size: 57px;
+  }
+  form.search__input > input {
+    max-width: 220px;
+  }
+  div.search__Foodies > h1 {
+    font-size: 75px;
+    left: 38%;
+    top: 34%;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  div.search__Message > p {
+    font-size: 50px;
+  }
+  div.search__Message {
+    top: 35%;
+    left: 40%;
+  }
+  form.search__input > input {
+    max-width: 180px;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  div.search__Message {
+    top: 33%;
+    left: 33%;
+  }
+  div.search__Foodies > h1 {
+    font-size: 70px !important;
+    left: 24%;
+    top: 34%;
+  }
+}
+
+/* imp */
+
+@media screen and (max-width: 642px) {
+  div.search__Message > p {
+    font-size: 44px !important;
+    -webkit-text-fill-color: #ff6b6b;
+    font-weight: 600;
+  }
+  div.search__Message {
+    top: 33%;
+    left: 25%;
+  }
+  div.search__Message > h1 {
+    font-size: 50px !important;
+    -webkit-text-fill-color: #ff6b6b;
+  }
+  form.search__input > input::placeholder {
+    color: snow;
+  }
+  form.search__input > .MuiSvgIcon-root {
+    color: snow;
+  }
+  form.search__input {
+    border: 1px solid #7c7792;
+    background-color: #07060b41;
+  }
+  div.search__Foodies > h1 {
+    font-size: 65px !important;
+    left: 22%;
+    top: 34%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  div.search__Message > p {
+    font-size: 42px !important;
+  }
+  div.search__Message {
+    top: 33%;
+    left: 18%;
+  }
+  div.search__Message > h1 {
+    font-size: 44px !important;
+  }
+  div.search__Foodies > h1 {
+    font-size: 65px !important;
+    left: 27% !important;
+    top: 34%;
+  }
+}
+
+@media screen and (max-width: 494px) {
+  div.search__Message > p {
+    font-size: 40px !important;
+  }
+  div.search__Message {
+    top: 33%;
+    left: 15%;
+  }
+  div.search__Message > h1 {
+    font-size: 42px !important;
+  }
+  div.search__Foodies > h1 {
+    font-size: 60px !important;
+    left: 27% !important;
+    top: 34%;
+  }
+}
+
+@media screen and (max-width: 454px) {
+  div.search__Message > p {
+    font-size: 35px !important;
+    font-weight: 400;
+  }
+  div.search__Message {
+    top: 33%;
+    left: 15%;
+  }
+  div.search__Message > h1 {
+    font-size: 42px !important;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  div.search__Message {
+    top: 33%;
+    left: 11%;
+  }
+  form.search__input > input {
+    max-width: 150px;
+    font-size: large;
+  }
+  div.search__Foodies > a {
+    left: 35%;
+  }
+  div.search > a {
+    left: 35%;
+  }
+  div.search__Foodies > h1 {
+    font-size: 50px;
+    left: 24%;
+    top: 34%;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  div.search__Message {
+    top: 33%;
+    left: 7%;
+  }
+  form.search__input > input {
+    max-width: 140px;
+    font-size: large;
+    height: 40px !important;
+  }
+  div.search__Message > p {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  div.search__Message > h1 {
+    font-size: 36px;
+    font-weight: 400;
+  }
+  div.search__Foodies > h1 {
+    font-size: 55px !important;
+    left: 20% !important;
+    top: 34%;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  div.search__Message > p {
+    font-size: 24px !important;
+    font-weight: 400;
+    width: max-content;
+  }
+  div.search__Message > h1 {
+    font-size: 30 !important;
+    font-weight: 400;
+    width: max-content;
+  }
+  form.search__input > input::placeholder {
+    font-size: medium;
+  }
 }
 
 .search__Message > h1 {
   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 5vw;
+  font-size: 70px;
+}
+
+@media screen and (max-width: 1386px) {
+  div.search__Message > h1 {
+    font-size: 60px;
+  }
+  form.search__input > input {
+    width: 250px;
+  }
+  div.search__Message > p {
+    font-size: 45px;
+  }
+  div.search__Foodies > h1 {
+    font-size: 80px;
+    left: 40%;
+    top: 34%;
+  }
 }
 
 .search__input > input {
   outline-width: 0;
   border: none;
   height: 50px;
-  width: 20vw;
+  width: 300px;
   background-color: transparent;
   font-size: 20px;
   color: white;
@@ -105,23 +326,68 @@
 }
 
 .search__recipeBody {
-  width: 80%;
+  width: 85%;
   height: 100%;
   margin: auto;
   background-color: #07060b;
   justify-content: center;
 }
 
+@media screen and (max-width: 1386px) {
+  div.search__recipeBody {
+    width: 95%;
+  }
+}
+
 .search__recipes {
   position: relative;
   display: grid;
   grid-template-columns: 285px 285px 285px 285px;
-  columns: 4;
   margin: 40px auto;
   column-gap: 20px;
+  justify-content: center;
   row-gap: 20px;
   break-inside: avoid !important;
   overflow: hidden;
+}
+
+@media screen and (max-width: 1256px) {
+  div.search__recipes {
+    grid-template-columns: 285px 285px 285px;
+  }
+}
+
+@media screen and (max-width: 942px) {
+  div.search__recipes {
+    grid-template-columns: 250px 250px 250px;
+  }
+}
+
+@media screen and (max-width: 836px) {
+  div.search__recipes {
+    grid-template-columns: 220px 220px 220px;
+  }
+}
+@media screen and (max-width: 742px) {
+  div.search__recipes {
+    grid-template-columns: 260px 260px;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  div.search__recipes {
+    grid-template-columns: 230px 230px;
+    column-gap: 15px;
+    row-gap: 13px;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  div.search__recipes {
+    grid-template-columns: 250px;
+    column-gap: 15px;
+    row-gap: 13px;
+  }
 }
 
 .search__Foodies a {

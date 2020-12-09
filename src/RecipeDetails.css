@@ -1,19 +1,20 @@
 .ingredient-list {
   margin-top: 10px;
-  background-color: #f0f0f0;
-  border-radius: 5px;
+  background-color: rgb(59, 55, 55);
+  border-radius: 10px;
   padding-left: 2.5rem;
 }
 
 .ingredient-list li {
   margin: 0.5rem 0;
+  color: rgb(248, 233, 233);
 }
 
 .ingredient-text {
   font-size: larger;
 
   overflow-x: auto;
-  color: #888;
+  color: rgb(248, 233, 233);
 }
 
 .ingredient-weight {
