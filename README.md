@@ -1,4 +1,5 @@
-## Learning 🌟🌟🔥
+## Deploy 🌟🌟🔥:
+https://foodies-b9b87.web.app/
 
 ## FOODIES
 
