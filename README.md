@@ -1,4 +1,4 @@
-## Deploy 🌟🌟🔥:
+## Deployed 🌟🌟🔥:
 https://foodies-b9b87.web.app/
 
 ## FOODIES
